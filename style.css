@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(51, 49, 49);
+}
+span{
+    font-weight: bolder;
+    color: black;
+}
+.imagem{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    border-radius: 15px 15px 0px 0px;
+}
+#pagamento{
+    background-color: aliceblue;
+    width: 450px;
+    display: block;
+    margin-top: -20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+}
+#pagamento > h2{
+    text-align: center;
+}
+#pagamento > p{
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+}
+.plan{
+    background: rgba(228, 233, 238, 0.719);
+    width: 340px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+}
+.anual{
+    float: left;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+.clear{
+    clear: both;
+}
+.anual > img{
+    padding-left: 20px;
+}
+.anual > p{
+    line-height: 0.6;
+    display: table-cell;
+    vertical-align: middle;
+}
+.anual > a{
+    display: block;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-left: 35px;
+}
